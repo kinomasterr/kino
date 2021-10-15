@@ -4,6 +4,7 @@
     <title>KinoMaster</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <script src="https://cdn.plrjs.com/player/hh547hk47fak8/oiylu24gy065.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
 <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
@@ -195,6 +196,11 @@
       <div>
   			  	<video width="100%" controls src="css/video/x-man1.mp4"></video>
       </div>-->
+      <div id="player"></div>
+
+      <script>
+        var player = new Playerjs({id:"player", file:"css/video/x-man1.mp4"});
+      </script>
       <div id="kinoplayertop" data-kinopoisk="814016"></div> 
 <scriptsrc="//kinoplayer.top/top.js"></script>
       <div>
