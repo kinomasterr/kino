@@ -4,7 +4,7 @@
     <title>KinoMaster</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <script src="js.player.js" type="text/javascript"></script>
+    <script src="js/player.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
 <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
@@ -190,14 +190,11 @@
         		Некогда правивший Древним Египтом могущественный мутант Эн Сабах Нур становится жертвой заговора, нарушившего его планы по переселению в новое тело, которое могло даровать ему бессмертие и неуязвимость. После невольного заточения длиною в несколько тысяч лет, в 1983 году он обретает долгожданную свободу и решает напомнить миру о себе, подчинив своей воле человечество. Лишь немногие из Людей Икс осмеливаются бросить вызов столь опасному противнику, твердо уверенному в том, что только сильнейшие имеют право на жизнь. Так на пути у Апокалипсиса и четырех его верных всадников оказывается Чарльз Ксавьер со своими учениками, отважно вступающими в, казалось бы, безнадежное противостояние.
         </div>
       </div>
-      <div>
-        <!--<video width="100%" controls src="css/video/x-man.mp4"><video>
-      </div>
-      <div>
-  			  	<video width="100%" controls src="css/video/x-man1.mp4"></video>
-      </div>-->
-      <div id="player"></div>
+	  <div id="player"></div>
 
+<script>
+   var player = new Playerjs({id:"player", file:"video.mp4"});
+</script>
       <script>
         var player = new Playerjs({id:"player", file:"https://youtu.be/sqP_PUd4-gg"});
       </script>
